@@ -1,0 +1,44 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+}
+li{
+    list-style:none;
+    padding: 3px 4px;
+    background-color: orchid;
+    border: 3px solid skyblue;
+    border-radius: 4px;
+    margin: 5px 5px;
+}
+a{
+   text-decoration: none;
+}
+.container{
+    margin:11px auto;
+    background-color: lightyellow;
+    max-width: 70%;
+    max-height: 50%;
+}
+input,textarea{
+    display: block;
+    padding: 3px;
+    margin: 15px auto;
+    width: 60%;
+    outline:none;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+.btn{
+    margin: 4px auto;
+    display: block;
+    padding: 5px 12px;
+    background-color: rgb(35, 221, 190);
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    border: 2px solid red;
+    border-radius: 9px;
+}
